@@ -6,6 +6,7 @@ import { Progress } from "@/components/ui/progress";
 import { Button } from "@/components/ui/button";
 import { NewFormulaModal } from "./NewFormulaModal";
 
+// new
 export const FormulasSection = () => {
   const [selectedFormula, setSelectedFormula] = useState<string | null>(null);
   const [isNewFormulaModalOpen, setIsNewFormulaModalOpen] = useState(false);
